@@ -1,0 +1,53 @@
+header {
+    background: $email_bg_blue;
+    padding: 2rem;
+
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+
+        .nav__logo {
+            flex: 1;
+
+            svg {
+
+
+                path {
+                    fill: white;
+                    stroke: white;
+                    height: 2rem;
+                }
+
+            }
+
+            
+        }
+
+        .nav__links {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            a {
+                margin-left: 2rem;
+                min-width: 4rem;
+                text-align: center;
+                text-decoration: none;
+                color: $neutral;
+                font-size: 1.1rem;
+                font-weight: 400;
+
+                &:hover {
+                    cursor: pointer;
+                    font-weight: 700;
+                    text-decoration: underline;
+                }
+            }
+            
+        }
+    }
+    
+
+}
+
